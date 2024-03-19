@@ -64,3 +64,19 @@ span {
 h3 {
     font-size: 1.4em;
 }
+
+@media (max-width: 600px) {
+    .calculator {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    input[type="number"], input[type="text"] {
+        margin-bottom: 15px;
+    }
+}
